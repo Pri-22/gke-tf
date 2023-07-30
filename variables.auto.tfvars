@@ -1,0 +1,10 @@
+gcp_credentials = "terraform-gke/task-terraform-0973a60d103e.json"
+gcp_project_id = "task-terraform"
+gcp_region = "us-west1"
+gke_zones = ["us-west1-a"]
+gke_regional = false
+gke_network = "default"
+gke_subnetwork = "default"
+gke_service_account_name = "terraform-svc-acc@task-terraform.iam.gserviceaccount.com"
+gke_cluster_name = "terraform-cluster"
+gke_default_nodepool_name = "terraform-pool"
